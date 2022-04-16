@@ -1,3 +1,4 @@
+//JAVA linkedlist creation and traversing.
 package codingpractice;
 
 public class LinkedList {
