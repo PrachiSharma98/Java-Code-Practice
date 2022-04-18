@@ -1,4 +1,7 @@
 //JAVA linkedlist creation and traversing.
+//LinkedList can also be predefined as Linkedlist li=new LinkedList();
+//li.add(2);
+//Arrays.asList();
 package codingpractice;
 
 public class LinkedList {
