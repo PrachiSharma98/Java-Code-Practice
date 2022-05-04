@@ -16,6 +16,8 @@ For each asteroid, the absolute value represents its size, and the sign represen
 
 Find out the state of the asteroids after all collisions. If two asteroids meet, the smaller one will explode. If both are the same size, both will explode. Two asteroids moving in the same direction will never meet.
 
+
+
  
 
 Example 1:
@@ -34,3 +36,8 @@ Input: asteroids = [10,2,-5]
 Output: [10]
 Explanation: The 2 and -5 collide resulting in -5. The 10 and -5 collide resulting in 10.
  
+
+
+
+Given a String and two words (which occur in the given string), find the minimum distance between two words. Distance between two words is defined as the number of characters between the given two words’ middle characters. The brute-force approach was already implemented but it had some logical bugs, and because of which sample test cases were failing. The objective was to find and fix those bugs and then to add some new test cases and write a code for those test cases as well.
+Simple DFS + DP in a 2D matrix to find the minimum cost path.
